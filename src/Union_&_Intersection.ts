@@ -16,7 +16,7 @@
 */ 
 
 
-
+// ---------- UNION --------------//
 // ✅  Example 1 — Union in Function Parameters
 
 type ID = {id : number | string} ;
