@@ -3,16 +3,16 @@
 
 ==>2.Primitives type in TS are - number,string,boolean,null,undefined,sybol,biginit,any and unknown
 
-*/ 
+*/
 
 // type by type explenation (string,number,boolean)
-const name : string = "Samad";
-const age : number = 23;
-const isDeveloper : boolean = true;
+const name: string = "Samad";
+const age: number = 23;
+const isDeveloper: boolean = true;
 
 let messege = `hellow, I am ${name} working as a developer . i am ${age} years old `
 
-console.log (messege)
+console.log(messege)
 
 /*
 Type Inference (Auto-detection)
@@ -35,7 +35,7 @@ Null type
 ==> Use case : When something is intentionally empty — e.g., reset a variable or indicate no object.
  */
 
-let emptyValue :null = null
+let emptyValue: null = null
 console.log(emptyValue)
 
 
@@ -47,8 +47,8 @@ Undefined Type
 ==> Use case : To indicate “not assigned yet.”
 */
 
-let notDefined : undefined = undefined;
-let someThings :(string|undefined);
+let notDefined: undefined = undefined;
+let someThings: (string | undefined);
 
 
 console.log(typeof someThings)
@@ -65,9 +65,9 @@ any type
 ==> Disables type checking for that variable.We can assign any value.
 ==> Use case: Gradual migration from JS → TS; dynamic data; prototyping.
 ==> Caution: Avoid overusing it—it removes TypeScript’s safety.
-*/ 
+*/
 
-let anyThings :any = 10;
+let anyThings: any = 10;
 anyThings = "samad"
 anyThings = false
 
